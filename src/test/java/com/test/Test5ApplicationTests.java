@@ -12,5 +12,10 @@ class Test5ApplicationTests {
 	void additiontest() {
 		assertEquals(10,Calculator.add(5, 5));
 	}
+	
+	@Test
+	void subtractiontest() {
+		assertEquals(10,Calculator.sub(5, 5));
+	}
 
 }
