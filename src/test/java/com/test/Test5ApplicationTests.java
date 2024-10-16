@@ -10,7 +10,7 @@ class Test5ApplicationTests {
 
 	@Test
 	void additiontest() {
-		assertEquals(10,Calculator.add(5, 5))
+		assertEquals(10,Calculator.add(5, 5));
 	}
 
 }
